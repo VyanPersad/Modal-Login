@@ -1,0 +1,157 @@
+<head class="head">
+  <meta charset="utf-8">
+  <link href="modal.css" rel="stylesheet" type="text/css">
+</head>
+
+<header class="headerbar">
+  <div><input class="searchinput" type="text" id="Login" placeholder="Search..."></div>
+  <div><span></span></div>
+  <div class="btnpair">
+    <div class="butts"><button id="launchmodal" class="modalbtn" onclick="openModal()"><b>Login</b></button></div>
+    <div><span></span></div>
+    <div class="butts"><button id="launchmodal" class="modalbtn" onclick="openModal()"><b>Sign-Up</b></button></div>
+  </div>
+
+  <div><input class="searchinput" type="text" id="Login" placeholder="Search..."></div>
+  <div><span></span></div>
+  <div class="btnpair">
+    <div class="butts"><button id="launchmodal" class="modalbtn" onclick="openModal2()"><b>Login</b></button></div>
+    <div><span></span></div>
+    <div class="butts"><button id="launchmodal2" class="modalbtn" onclick="openModal2()"><b>Sign-Up</b></button></div>
+  </div>
+
+  <div><input class="searchinput" type="text" id="Login" placeholder="Search..."></div>
+  <div><span></span></div>
+  <div class="btnpair">
+    <div class="butts"><button id="launchmodal" class="modalbtn" onclick="openModal3()"><b>Login</b></button></div>
+    <div><span></span></div>
+    <div class="butts"><button id="launchmodal2" class="modalbtn" onclick="openModal3()"><b>Sign-Up</b></button></div>
+  </div>
+</header>
+
+<body>
+  <div class="modal" id="modalview" onclick="outsideClick()">
+
+    <div class="modalbody">
+      <div class="modaltitle">
+        <p><b>Basic Login</b></p>
+        <span class="closebtn" id="closemodal" onclick="closeModal()">
+          <p><b>&times;</b></p>
+        </span>
+      </div>
+      <div class="formbox">
+        <div class="left">
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="Login" placeholder="Username">
+              <button id="launchmodal" class="modalbtn"><b>Login</b></button>
+            </form>
+          </div>
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="password" placeholder="Password">
+              <button id="launchmodal" class="modalbtn"><b>Sign-Up</b></button>
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <div class="Logintext">
+            <p>Do you have an account feel free to sign in.</p>
+            <p>If not sign-up for a free for an account</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modalview2" onclick="outsideClick()">
+
+    <div class="modalbody">
+      <div class="modaltitle">
+        <p><b>Basic Login</b></p>
+        <span class="closebtn" id="closemodal" onclick="closeModal2()">
+          <p><b>&times;</b></p>
+        </span>
+      </div>
+      <div class="formbox">
+        <div class="left">
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="Login" placeholder="Username">
+            </form>
+          </div>
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="password" placeholder="Password">
+            </form>
+          </div>
+          <div>
+            <form class="form">
+              <button id="launchmodal" class="modalbtn"><b>Login</b></button>
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <div class="Logintext">
+            <p>Do you have an account feel free to sign in.</p>
+            <p>If not sign-up for a free for an account</p>
+            <br>
+            <br>
+          </div>
+          <div>
+            <form class="form">
+              <button id="launchmodal" class="modalbtn"><b>Sign-Up</b></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modalview3" onclick="outsideClick()">
+
+    <div class="modalbody">
+      <div class="modaltitle">
+        <p><b>Basic Login</b></p>
+        <span class="closebtn" id="closemodal" onclick="closeModal3()">
+          <p><b>&times;</b></p>
+        </span>
+      </div>
+      <div class="formbox">
+        <div class="left">
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="Login" placeholder="Username">
+            </form>
+          </div>
+          <div>
+            <form class="form">
+              <input class="input" type="text" id="password" placeholder="Password">
+            </form>
+          </div>
+          <div>
+            <form class="form">
+              <button id="launchmodal" class="modalbtn"><b>Login</b></button>
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <div class="Logintext">
+            <p>Do you have an account feel free to sign in.</p>
+            <p>If not sign-up for a free for an account</p>
+            <br>
+            <br>
+          </div>
+          <div>
+            <form class="form">
+              <button id="launchmodal" class="modalbtn"><b>Sign-Up</b></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="modal.js"></script>
+
+</body>
